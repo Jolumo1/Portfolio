@@ -170,11 +170,13 @@ section {
     color: var(--base-800);
     border-radius: 10px;
     transition: ease 0.3s all;
+    
     &:hover {
         text-decoration: none;
         background-color: var(--yellow-100);
     }
     &.white {
+        min-width: 300px;
         background-color: var(--yellow-400);
         color: var(--base-800);
         &:hover {
@@ -183,6 +185,7 @@ section {
         }
     }
     &.black {
+        min-width: 300px;
         background-color: black;
         color: var(--yellow);
         &:hover {
